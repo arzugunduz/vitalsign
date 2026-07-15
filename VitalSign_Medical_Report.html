@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <title>VitalSign AI - Examination Report</title>
+            <style>
+                body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8fafc; color: #1e293b; margin: 40px; }
+                .report-card { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border-top: 8px solid #0f172a; }
+                .header { text-align: center; border-bottom: 2px solid #e2e8f0; padding-bottom: 20px; margin-bottom: 25px; }
+                .header h1 { margin: 0; color: #0f172a; font-size: 24px; }
+                .header p { margin: 5px 0 0 0; color: #64748b; font-size: 14px; }
+                .meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 30px; background: #f1f5f9; padding: 15px; border-radius: 8px; font-size: 14px; }
+                .meta-grid-item { font-weight: 500; }
+                .meta-grid-item span { color: #64748b; font-weight: 400; }
+                table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+                th { background-color: #0f172a; color: white; text-align: left; padding: 12px; font-size: 14px; }
+                td { padding: 12px; border-bottom: 1px solid #e2e8f0; font-size: 14px; }
+                tr:nth-child(even) { background-color: #f8fafc; }
+                .badge-patient { background: #dbeafe; color: #1e40af; padding: 4px 8px; border-radius: 4px; font-weight: 600; font-size: 12px; }
+                .badge-doctor { background: #ccfbf1; color: #115e59; padding: 4px 8px; border-radius: 4px; font-weight: 600; font-size: 12px; }
+                .signature { margin-top: 50px; border-top: 1px dashed #cbd5e1; padding-top: 20px; text-align: right; color: #64748b; font-size: 14px; }
+            </style>
+        </head>
+        <body>
+            <div class="report-card">
+                <div class="header">
+                    <h1>🩺 VITALSIGN MEDICAL AI PLATFORM</h1>
+                    <p>Real-Time Patient-Doctor Examination Summary Log</p>
+                </div>
+                <div class="meta-grid">
+                    <div class="meta-grid-item">Examination Date: <span>2026-06-06</span></div>
+                    <div class="meta-grid-item">System Status: <span>Active / Operational</span></div>
+                    <div class="meta-grid-item">Export Time: <span>04:49:09</span></div>
+                    <div class="meta-grid-item">Gateway Mode: <span>Dual-Way Tkinter Thread</span></div>
+                </div>
+                <h3>📄 Clinical Examination Dialogue History</h3>
+                <table>
+                    <tr>
+                        <th style="width: 20%;">Time</th>
+                        <th style="width: 25%;">Sender</th>
+                        <th style="width: 55%;">Statement / Statement Details</th>
+                    </tr>
+        
+                <tr>
+                    <td>04:46:52</td>
+                    <td><span class="badge-patient">PATIENT COMPLAINT</span></td>
+                    <td>I have a severe headache.</td>
+                </tr>
+                
+                <tr>
+                    <td>04:48:18</td>
+                    <td><span class="badge-doctor">DOCTOR NOTE</span></td>
+                    <td>You should take a painkiller</td>
+                </tr>
+                
+                <tr>
+                    <td>04:48:25</td>
+                    <td><span class="badge-patient">PATIENT COMPLAINT</span></td>
+                    <td>I have a high fever today.</td>
+                </tr>
+                
+                <tr>
+                    <td>04:49:04</td>
+                    <td><span class="badge-doctor">DOCTOR NOTE</span></td>
+                    <td>You should take an antipyretic (fever reducer) like paracetamol or ibuprofen to bring your temperature down.</td>
+                </tr>
+                
+                </table>
+                <div class="signature">
+                    <p>M.D. Final Signature: ............................................</p>
+                </div>
+            </div>
+        </body>
+        </html>
+        

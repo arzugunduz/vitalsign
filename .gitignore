@@ -1,0 +1,32 @@
+# Hassas Çevresel Değişkenler
+.env
+secret_key.txt
+*.pem
+
+# Python Önbellek Dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Sanal Ortam Klasörleri
+env/
+venv/
+ENV/
+.venv/
+
+# Yapay Zeka Model Ağırlıkları, Jupyter Dosyaları ve Veri Setleri (Kesinlikle Engellendi)
+models/
+weights/
+My_VitalSign_Data/
+*.h5
+*.keras
+*.ipynb
+*.npy
+
+# Sistem ve Editör Dosyaları
+.vscode/
+.idea/
+.DS_Store
+*.zip
