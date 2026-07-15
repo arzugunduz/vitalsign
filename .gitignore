@@ -22,7 +22,6 @@ weights/
 My_VitalSign_Data/
 *.h5
 *.keras
-*.ipynb
 *.npy
 
 # Sistem ve Editör Dosyaları
@@ -30,3 +29,4 @@ My_VitalSign_Data/
 .idea/
 .DS_Store
 *.zip
+.ipynb_checkpoints/
